@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "stdafx.h"
 #include <windows.h>
 #include <winuser.h>
 #include <iostream>
