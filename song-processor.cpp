@@ -115,7 +115,6 @@ int main()
 	Button click;
 	int value = 0;
 	click.amountOfbots();
-
 	while (true) {
 		click.postConstuct();
 	}
