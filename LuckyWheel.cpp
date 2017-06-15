@@ -183,7 +183,6 @@ void Button::leftClick(int* Array, HWND* handle, string action) {
 		}
 	}
 
-
 //virtual keyboard input.
 void Button::keyPress(HWND* handle, char letter, int delay) {
 	for (int i = 0; i < bots; i++) {
@@ -201,7 +200,6 @@ void Button::tabRename(const TCHAR* name) {
 //Gets the amount of bots that need to be operated and renames window handles to sperate them.
 void Button::amountOfbots() {
 	if (eval == 0) {
-
 		for (int i = 0; i < bots; i++) {
 			handleGet();
 			firfoxHWND[i] = HWnd;
@@ -285,7 +283,6 @@ void Button::upgrade(int* building, int* upgradeLocation) {
 }
 
 void Button::spinLuck() {
-
 	leftClick(spin, windowHandles, "Spin");
 	leftClick(buyandSpin, windowHandles, "buy&spin");
 	leftClick(rejectFriend, windowHandles, "rejectFriend");
